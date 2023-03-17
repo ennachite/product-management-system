@@ -1,11 +1,11 @@
-package ma.nxp.productservice.service;
+package com.nxp.productservice.service;
 
+import com.nxp.productservice.dto.ProductRequest;
+import com.nxp.productservice.dto.ProductResponse;
+import com.nxp.productservice.model.Product;
+import com.nxp.productservice.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import ma.nxp.productservice.dto.ProductRequest;
-import ma.nxp.productservice.dto.ProductResponse;
-import ma.nxp.productservice.model.Product;
-import ma.nxp.productservice.repository.ProductRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

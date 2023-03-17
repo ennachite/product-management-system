@@ -1,9 +1,9 @@
-package ma.nxp.productservice.controller;
+package com.nxp.productservice.controller;
 
+import com.nxp.productservice.dto.ProductRequest;
 import lombok.RequiredArgsConstructor;
-import ma.nxp.productservice.dto.ProductRequest;
-import ma.nxp.productservice.dto.ProductResponse;
-import ma.nxp.productservice.service.ProductService;
+import com.nxp.productservice.dto.ProductResponse;
+import com.nxp.productservice.service.ProductService;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,6 +1,6 @@
-package ma.nxp.productservice.repository;
+package com.nxp.productservice.repository;
 
-import ma.nxp.productservice.model.Product;
+import com.nxp.productservice.model.Product;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 public interface ProductRepository extends MongoRepository<Product, String> {

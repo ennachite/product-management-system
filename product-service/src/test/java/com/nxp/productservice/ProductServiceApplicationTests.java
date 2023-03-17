@@ -1,8 +1,8 @@
-package ma.nxp.productservice;
+package com.nxp.productservice;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import ma.nxp.productservice.dto.ProductRequest;
-import ma.nxp.productservice.repository.ProductRepository;
+import com.nxp.productservice.dto.ProductRequest;
+import com.nxp.productservice.repository.ProductRepository;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

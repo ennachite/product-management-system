@@ -1,4 +1,4 @@
-package ma.nxp.productservice.dto;
+package com.nxp.productservice.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
