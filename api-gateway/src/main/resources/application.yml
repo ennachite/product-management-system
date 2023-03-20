@@ -26,6 +26,11 @@ spring:
           - Path=/eureka/**
           filters:
           - SetPath=/
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8585/auth/realms/spring-boot-microservices-realm
 
 logging:
   level:
